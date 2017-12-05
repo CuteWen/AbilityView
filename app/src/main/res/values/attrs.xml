@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AbilityView">
+        <attr name="corner" format="integer"/>
+        <attr name="intervalCount" format="integer"/>
+        <attr name="radius" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="CustomView">
+        <attr name="color" format="color"/>
+        <attr name="flags">
+            <flag name = "example_one" value = "1"/>
+            <flag name = "example_two" value = "2"/>
+            <flag name = "example_three" value = "3"/>
+            <flag name = "example_four" value = "4"/>
+        </attr>
+    </declare-styleable>
+</resources>

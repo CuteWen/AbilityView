@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wenzl.abilityview.MainActivity">
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onClick"
+        android:text="变化值"
+        />
+
+    <com.wenzl.abilityview.AbilityView
+        android:id="@+id/activity_main_ability"
+        android:layout_width="280dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        app:corner="7"
+        app:intervalCount="4"
+        app:radius="100dp"
+        />
+
+</LinearLayout>
