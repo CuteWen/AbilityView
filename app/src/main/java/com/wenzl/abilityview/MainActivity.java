@@ -8,7 +8,6 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
     AbilityView abilityMapView;
-    private AbilityBean data;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick(View view) {
         Random random = new Random();
-        data = new AbilityBean(random.nextInt(101), random.nextInt(101),
+        AbilityBean data = new AbilityBean(random.nextInt(101), random.nextInt(101),
                 random.nextInt(101), random.nextInt(101), random.nextInt(101),
                 random.nextInt(101), random.nextInt(101));
         abilityMapView.setData(data);
